@@ -25,6 +25,7 @@ p {
   color: #ffffff;
   color: #daf6ff;
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  text-decoration: none;
 }
 
 /* #container {
@@ -34,7 +35,7 @@ p {
 header {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
   margin: 1rem;
 }
 
