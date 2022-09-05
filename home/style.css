@@ -2,10 +2,7 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
-}
-
-::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
 }
 
 body {
@@ -22,13 +19,35 @@ p {
   padding: 0;
 }
 
-#container {
+#header {
+  font-size: 2rem;
+  font-family: "Share Tech Mono", "Roboto", monospace;
+  color: #ffffff;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+/* #container {
+
+} */
+
+header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/*
+* Clock
+*/
 #clock {
   font-size: 8rem;
   font-family: "Share Tech Mono", "Roboto", monospace;
@@ -60,4 +79,8 @@ p {
   color: #ffffff;
   color: #daf6ff;
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
