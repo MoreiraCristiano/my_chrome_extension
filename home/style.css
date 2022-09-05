@@ -28,6 +28,11 @@ p {
   text-decoration: none;
 }
 
+#header:hover {
+  color: #ffffff;
+  color: #e7f1f5;
+}
+
 /* #container {
 
 } */
